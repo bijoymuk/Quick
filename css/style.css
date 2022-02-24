@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*************************
+ header section Css start 
+**************************/
+
+.header {
+	width: 100%;
+	padding:20Px;
+	border-bottom: 1px solid rgb(53 59 255);
+}
+.menubar-row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+.logo img{
+	width: 40%;
+}
+.menu ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 20px;
+	transition:0.2s;
+
+
+}
+.menu ul li a:hover{
+	color: Black;
+	margin-right: 10px;
+	transition:0.5;
+}
+a{
+	text-decoration: none;
+}
+/*************************
+Banner section start
+**************************/
+.banner{
+	width: 100%;
+	margin-top: 60px;
+}
+.text h1{
+	color: #074ca5;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.text h2{
+	    font-size: 50px;
+    text-align: center;
+    color: #1b1b74;
+    text-transform: capitalize;
+}
+.text p{
+	    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #7f5f5f;
+        margin: 30px 30px;
+        line-height: 1.6;
+}
+.image{
+	text-align: center;
+	margin-bottom: 60px;
+}
+/*************************
+Project section css start
+**************************/
+.projects-row{
+	display: flex;
+	margin-left: 160px;
+
+
+}
+.text-2{
+	text-align: end;
+	padding-right:30px;
+}
+.text-2 h1{
+		color: red;
+    font-size: 50px;
+ 
+    text-transform: capitalize;
+
+}
+.text-2{
+	
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #7f5f5f;
+        margin: 30px 30px;
+        line-height: 1.6;
+}
+.text-3 h1{
+	color: #0F2656;
+    font-size: 50px;
+ 
+    text-transform: capitalize;
+
+}
+/*************************
+footer-1 section css start
+**************************/
+.creativity-section{
+	width: 100%;
+	padding: 100px 40px;
+    background-color: white;
+}
+.creativity-row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.creativity-row img{
+	width: 100%;
+	margin-right: 50px;
+
+	}
+
+ 
+
+
+
+.creativity-One h5{	
+	color: #071B4D;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+.creativity-two h5{
+	
+	color: #071B4D;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+.creativity-three h5{
+	
+	color: #071B4D;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+.creativity-One,.creativity-two,.creativity-three p{
+	 margin-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(83, 83, 83);
+}
+.creativity-One,.creativity-two,.creativity-three{
+	width: 33.3%;
+    padding: 25px 25px 50px 25px;
+    margin: 0px 15px;
+}
+.creativity-One{
+ background-color:#FDEBED;
+
+}
+.creativity-two{
+    background-color: #EBF9F4;
+}
+.creativity-three{
+    background-color: #FFF7E8;
+}
+/*************************
+footer-2 section css start
+**************************/
+.footer-section{
+    width: 100%;
+    background-color: #008AFF;
+    padding: 30px 0;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content p{
+    margin: 0;
+    color: rgb(255, 255, 255, 0.6);
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.footer-content span{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
